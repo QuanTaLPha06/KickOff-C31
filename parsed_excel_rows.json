@@ -1,0 +1,893 @@
+[
+  [
+    "PO",
+    "PLAYER",
+    "BASE PRICE",
+    "NATIONALITY",
+    "POSITION",
+    "OVERALL ",
+    "LEAGUE"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "Thibaut Courtois",
+    "₹5M",
+    "Belgium",
+    "GK",
+    "89.0",
+    "LaLiga"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "Gianluigi Donnarumma",
+    "₹5M",
+    "Italy",
+    "GK",
+    "89.0",
+    "Premier League"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "Alisson",
+    "₹5M",
+    "Brazil",
+    "GK",
+    "89.0",
+    "Premier League"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "Jan Oblak",
+    "₹5M",
+    "Slovenia",
+    "GK",
+    "88.0",
+    "LaLiga"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "Mike Maignan",
+    "₹5M",
+    "France",
+    "GK",
+    "87.0",
+    "Serie A"
+  ],
+  [
+    "Goalkeepers (GK)",
+    "David Raya",
+    "₹5M",
+    "Spain",
+    "GK",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Virgil Van Dijk",
+    "₹10M",
+    "Netherlands",
+    "CB",
+    "90.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "William Saliba",
+    "₹5M",
+    "France",
+    "CB",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Gabriel",
+    "₹7.5M",
+    "Brazil",
+    "CB",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Alessandro Bastoni",
+    "₹5M",
+    "Italy",
+    "CB",
+    "87.0",
+    "Serie A"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Ruben Dias",
+    "₹5M",
+    "Portugal",
+    "CB",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Marquinhos",
+    "₹7.5M",
+    "Brazil",
+    "CB",
+    "87.0",
+    "Ligue 1"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Ibrahima Konate",
+    "₹5M",
+    "France",
+    "CB",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Antonio Rudiger",
+    "₹5M",
+    "Germany",
+    "CB",
+    "86.0",
+    "LaLiga"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Dayot Upamecano",
+    "₹2M",
+    "France",
+    "CB",
+    "85.0",
+    "Bundesliga"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Ronald Araujo",
+    "₹2M",
+    "Uruguay",
+    "CB",
+    "85.0",
+    "LaLiga"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Jonathan Tah",
+    "₹5M",
+    "Germany",
+    "CB",
+    "87.0",
+    "Bundesliga"
+  ],
+  [
+    "Centre Backs (CB)",
+    "William Pacho",
+    "₹5M",
+    "Ecuador",
+    "CB",
+    "86.0",
+    "Ligue 1"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Nico Schlotterbeck",
+    "₹1M",
+    "Germany",
+    "CB",
+    "85.0",
+    "Bundesliga"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Bremer",
+    "₹1M",
+    "Brazil",
+    "CB",
+    "85.0",
+    "Serie A"
+  ],
+  [
+    "Centre Backs (CB)",
+    "Eder Militao",
+    "₹1M",
+    "Brazil",
+    "CB",
+    "84.0",
+    "LaLiga"
+  ],
+  [
+    "Right Backs (RB)",
+    "Achraf Hakimi",
+    "₹10M",
+    "Morocco",
+    "RB",
+    "89.0",
+    "Ligue 1"
+  ],
+  [
+    "Right Backs (RB)",
+    "Trent Alexander-Arnold",
+    "₹7.5M",
+    "England",
+    "RB",
+    "86.0",
+    "LaLiga"
+  ],
+  [
+    "Right Backs (RB)",
+    "Jules Kounde",
+    "₹7.5M",
+    "France",
+    "RB",
+    "87.0",
+    "LaLiga"
+  ],
+  [
+    "Right Backs (RB)",
+    "Jeremie Frimpong",
+    "₹5M",
+    "Netherlands",
+    "RB",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Right Backs (RB)",
+    "Denzel Dumfries",
+    "₹3M",
+    "Netherlands",
+    "RB",
+    "84.0",
+    "Serie A"
+  ],
+  [
+    "Right Backs (RB)",
+    "Marcos Llorente",
+    "₹3M",
+    "Spain",
+    "RB",
+    "84.0",
+    "LaLiga"
+  ],
+  [
+    "Left Backs (LB)",
+    "Nuno Mendes",
+    "₹10M",
+    "Portugal",
+    "LB",
+    "88.0",
+    "Ligue 1"
+  ],
+  [
+    "Left Backs (LB)",
+    "Josko Gvardiol",
+    "₹5M",
+    "Croatia",
+    "LB",
+    "85.0",
+    "Premier League"
+  ],
+  [
+    "Left Backs (LB)",
+    "Alphonso Davies",
+    "₹5M",
+    "Canada",
+    "LB",
+    "84.0",
+    "Bundesliga"
+  ],
+  [
+    "Left Backs (LB)",
+    "Theo Hernandez",
+    "₹7.5M",
+    "France",
+    "LB",
+    "87.0",
+    "Saudi Pro League"
+  ],
+  [
+    "Left Backs (LB)",
+    "Marc Cucurella",
+    "₹5M",
+    "Spain",
+    "LB",
+    "84.0",
+    "Premier League"
+  ],
+  [
+    "Left Backs (LB)",
+    "Balde",
+    "₹1M",
+    "Spain",
+    "LB",
+    "81.0",
+    "LaLiga"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Rodri",
+    "₹7.5M",
+    "Spain",
+    "CDM",
+    "90.0",
+    "Premier League"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Kimmich",
+    "₹7.5M",
+    "Germany",
+    "CDM",
+    "89.0",
+    "Bundesliga"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Declan Rice",
+    "₹5M",
+    "England",
+    "CDM",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Moises Caicedo",
+    "₹5M",
+    "Ecuador",
+    "CDM",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Sandro Tonali",
+    "₹3M",
+    "Italy",
+    "CDM",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Defensive Midfielders (CDM)",
+    "Ryan Gravenberch",
+    "₹3M",
+    "Netherlands",
+    "CDM",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Pedri",
+    "₹7.5M",
+    "Spain",
+    "CM",
+    "90.0",
+    "LaLiga"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Kevin De Bruyne",
+    "₹5M",
+    "Belgium",
+    "CM",
+    "87.0",
+    "Serie A"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Federico Valverde",
+    "₹7.5M",
+    "Uruguay",
+    "CM",
+    "89.0",
+    "LaLiga"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Martin Odegaard",
+    "₹5M",
+    "Norway",
+    "CM",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Bernardo Silva",
+    "₹5M",
+    "Portugal",
+    "CM",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Vitinha",
+    "₹7.5M",
+    "Portugal",
+    "CM",
+    "90.0",
+    "Ligue 1"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Frenkie De Jong",
+    "₹5M",
+    "Netherlands",
+    "CM",
+    "87.0",
+    "LaLiga"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Nicolo Barella",
+    "₹5M",
+    "Italy",
+    "CM",
+    "87.0",
+    "Serie A"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Bruno Guimaraes",
+    "₹5M",
+    "Brazil",
+    "CM",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Joao Neves",
+    "₹2M",
+    "Portugal",
+    "CM",
+    "85.0",
+    "Ligue 1"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Alexis Mac Allister",
+    "₹5M",
+    "Argentina",
+    "CM",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Tijjani Reijnders",
+    "₹3M",
+    "Netherlands",
+    "CM",
+    "86.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Enzo Fernandez",
+    "₹2M",
+    "Argentina",
+    "CM",
+    "85.0",
+    "Premier League"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Scott McTominay",
+    "₹1M",
+    "Scotland",
+    "CM",
+    "85.0",
+    "Serie A"
+  ],
+  [
+    "Central Midfielders (CM)",
+    "Youri Tielemans",
+    "₹1M",
+    "Belgium",
+    "CM",
+    "84.0",
+    "Premier League"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Jude Bellingham",
+    "₹10M",
+    "England",
+    "CAM",
+    "90.0",
+    "LaLiga"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Florian Wirtz",
+    "₹7.5M",
+    "Germany",
+    "CAM",
+    "89.0",
+    "Premier League"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Jamal Musiala",
+    "₹7.5M",
+    "Germany",
+    "CAM",
+    "88.0",
+    "Bundesliga"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Bruno Fernandes",
+    "₹7.5M",
+    "Portugal",
+    "CAM",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Cole Palmer",
+    "₹5M",
+    "England",
+    "CAM",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Attacking Midfielders (CAM)",
+    "Paulo Dybala",
+    "₹2M",
+    "Argentina",
+    "CAM",
+    "85.0",
+    "Serie A"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Vinicius Jr.",
+    "₹10M",
+    "Brazil",
+    "LW",
+    "89.0",
+    "LaLiga"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Khvicha Kvaratskhelia",
+    "₹5M",
+    "Georgia",
+    "LW",
+    "87.0",
+    "Ligue 1"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Raphinha",
+    "₹7.5M",
+    "Brazil",
+    "LW",
+    "89.0",
+    "LaLiga"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Nico Williams",
+    "₹5M",
+    "Spain",
+    "LW",
+    "86.0",
+    "LaLiga"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Luis Diaz",
+    "₹5M",
+    "Colombia",
+    "LW",
+    "87.0",
+    "Bundesliga"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Heung-Min Son",
+    "₹5M",
+    "South Korea",
+    "LW",
+    "85.0",
+    "MLS"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Rafael Leao",
+    "₹5M",
+    "Portugal",
+    "LW",
+    "86.0",
+    "Serie A"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Bradley Barcola",
+    "₹3M",
+    "France",
+    "LW",
+    "84.0",
+    "Ligue 1"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Cody Gakpo",
+    "₹2M",
+    "Netherlands",
+    "LW",
+    "84.0",
+    "Premier League"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Kingsley Coman",
+    "₹2M",
+    "France",
+    "LW",
+    "85.0",
+    "Saudi Pro League"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Gabriel Martinelli",
+    "₹2M",
+    "Brazil",
+    "LW",
+    "84.0",
+    "Premier League"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Anthony Gordon",
+    "₹1M",
+    "England",
+    "LW",
+    "84.0",
+    "Premier League"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Sadio Mane",
+    "₹1M",
+    "Senegal",
+    "LW",
+    "84.0",
+    "Saudi Pro League"
+  ],
+  [
+    "Left Wingers / Midfielders (LW/LM)",
+    "Leandro Trossard",
+    "₹1M",
+    "Belgium",
+    "LW",
+    "83.0",
+    "Premier League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Mohamed Salah",
+    "₹10M",
+    "Egypt",
+    "RW",
+    "91.0",
+    "Premier League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Lamine Yamal",
+    "₹10M",
+    "Spain",
+    "RW",
+    "89.0",
+    "LaLiga"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Bukayo Saka",
+    "₹7.5M",
+    "England",
+    "RW",
+    "88.0",
+    "Premier League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Lionel Messi",
+    "₹5M",
+    "Argentina",
+    "RW",
+    "86.0",
+    "MLS"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Michael Olise",
+    "₹7.5M",
+    "France",
+    "RW",
+    "86.0",
+    "Bundesliga"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Phil Foden",
+    "₹5M",
+    "England",
+    "RW",
+    "85.0",
+    "Premier League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Desire Doue",
+    "₹5M",
+    "France",
+    "RW",
+    "85.0",
+    "Ligue 1"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Rodrygo",
+    "₹5M",
+    "Brazil",
+    "RW",
+    "85.0",
+    "LaLiga"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Bryan Mbeumo",
+    "₹2M",
+    "Cameroon",
+    "RW",
+    "85.0",
+    "Premier League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Christian Pulisic",
+    "₹2M",
+    "USA",
+    "RW",
+    "84.0",
+    "Serie A"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Moussa Diaby",
+    "₹1M",
+    "France",
+    "RW",
+    "84.0",
+    "Saudi Pro League"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Brahim Diaz",
+    "₹1M",
+    "Morocco",
+    "RW",
+    "82.0",
+    "LaLiga"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Karim Adeyemi",
+    "₹1M",
+    "Germany",
+    "RW",
+    "84.0",
+    "Bundesliga"
+  ],
+  [
+    "Right Wingers / Midfielders (RW/RM)",
+    "Leroy Sane / Cherki",
+    "₹1M",
+    "Germany / France",
+    "RW / CAM",
+    "84 / 85",
+    "Süper Lig / Premier League"
+  ],
+  [
+    "Strikers (ST)",
+    "Kylian Mbappe",
+    "₹10M",
+    "France",
+    "ST",
+    "91.0",
+    "LaLiga"
+  ],
+  [
+    "Strikers (ST)",
+    "Erling Haaland",
+    "₹10M",
+    "Norway",
+    "ST",
+    "91.0",
+    "Premier League"
+  ],
+  [
+    "Strikers (ST)",
+    "Harry Kane",
+    "₹7.5M",
+    "England",
+    "ST",
+    "90.0",
+    "Bundesliga"
+  ],
+  [
+    "Strikers (ST)",
+    "Ousmane Dembele",
+    "₹10M",
+    "France",
+    "ST",
+    "90.0",
+    "Ligue 1"
+  ],
+  [
+    "Strikers (ST)",
+    "Lautaro Martinez",
+    "₹7.5M",
+    "Argentina",
+    "ST",
+    "88.0",
+    "Serie A"
+  ],
+  [
+    "Strikers (ST)",
+    "Alexander Isak",
+    "₹5M",
+    "Sweden",
+    "ST",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Strikers (ST)",
+    "Viktor Gyokeres",
+    "₹5M",
+    "Sweden",
+    "ST",
+    "87.0",
+    "Premier League"
+  ],
+  [
+    "Strikers (ST)",
+    "Julian Alvarez",
+    "₹5M",
+    "Argentina",
+    "ST",
+    "87.0",
+    "LaLiga"
+  ],
+  [
+    "Strikers (ST)",
+    "Robert Lewandowski",
+    "₹7.5M",
+    "Poland",
+    "ST",
+    "88.0",
+    "LaLiga"
+  ],
+  [
+    "Strikers (ST)",
+    "Cristiano Ronaldo",
+    "₹3M",
+    "Portugal",
+    "ST",
+    "84.0",
+    "Saudi Pro League"
+  ]
+]
