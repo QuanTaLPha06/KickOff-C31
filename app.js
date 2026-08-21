@@ -26,6 +26,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         ];
 
+    /* ── RANDOMIZATION & SHUFFLE (FISHER-YATES) ────────────────────────── */
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // Randomize initial database order so players never appear in fixed order
+    shuffleArray(playersList);
+
     let activeFilteredPlayers = [...playersList];
     let currentIdx = 0;
     let activePlayer = activeFilteredPlayers[0];
@@ -91,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectPlayer    = document.getElementById('select-player');
     const playerCounter   = document.getElementById('player-counter');
     const btnSound        = document.getElementById('btn-sound');
+    const btnShuffle      = document.getElementById('btn-shuffle');
     const btnFullscreen   = document.getElementById('btn-fullscreen');
 
     /* ── AUDIO SYNTHESIS ───────────────────────────────────────────────── */
@@ -453,6 +466,16 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPlay.addEventListener('click', startSequence);
     btnPrev.addEventListener('click', prevPlayer);
     btnNext.addEventListener('click', nextPlayer);
+
+    if (btnShuffle) {
+        btnShuffle.addEventListener('click', () => {
+            shuffleArray(activeFilteredPlayers);
+            currentIdx = 0;
+            resetStage();
+            applyPlayer(activeFilteredPlayers[0]);
+            populatePlayerDropdown();
+        });
+    }
 
     // On-stage floating next button
     btnStageNext.addEventListener('click', () => {
