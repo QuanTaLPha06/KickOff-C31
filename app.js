@@ -296,8 +296,13 @@ document.addEventListener('DOMContentLoaded', () => {
             return matchCat && matchQuery;
         });
 
+        if (cat === 'ALL' && !query) {
+            shuffleArray(activeFilteredPlayers);
+        }
+
         if (activeFilteredPlayers.length === 0) {
             activeFilteredPlayers = [...playersList];
+            shuffleArray(activeFilteredPlayers);
         }
         currentIdx = 0;
         applyPlayer(activeFilteredPlayers[0]);
