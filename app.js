@@ -26,16 +26,58 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         ];
 
-    /* ── RANDOMIZATION & SHUFFLE (FISHER-YATES) ────────────────────────── */
+    /* ── DYNAMIC RANDOMIZATION & BALANCED INTERLEAVING ───────────────────── */
     function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
+        if (!array || array.length <= 1) return array;
+
+        // Group players by position/category key
+        const groups = {};
+        array.forEach(p => {
+            const key = p.pos || p.category || 'OTHER';
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(p);
+        });
+
+        // Shuffle within each category group using Fisher-Yates
+        Object.keys(groups).forEach(key => {
+            const g = groups[key];
+            for (let i = g.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [g[i], g[j]] = [g[j], g[i]];
+            }
+        });
+
+        // Interleave players so consecutive items don't share position/category
+        const result = [];
+        let lastKey = null;
+
+        while (result.length < array.length) {
+            // Find available keys excluding lastKey (if possible)
+            let candidateKeys = Object.keys(groups).filter(k => groups[k].length > 0 && k !== lastKey);
+
+            // If no non-consecutive candidate exists, fall back to any remaining key
+            if (candidateKeys.length === 0) {
+                candidateKeys = Object.keys(groups).filter(k => groups[k].length > 0);
+            }
+
+            if (candidateKeys.length === 0) break;
+
+            // Pick candidate with largest remaining pool to prevent running out of variety early
+            candidateKeys.sort((a, b) => groups[b].length - groups[a].length);
+            const chosenKey = candidateKeys[0];
+
+            result.push(groups[chosenKey].pop());
+            lastKey = chosenKey;
+        }
+
+        // Mutate and update original array
+        for (let i = 0; i < result.length; i++) {
+            array[i] = result[i];
         }
         return array;
     }
 
-    // Randomize initial database order so players never appear in fixed order
+    // Randomize initial database order with position interleaving
     shuffleArray(playersList);
 
     let activeFilteredPlayers = [...playersList];
