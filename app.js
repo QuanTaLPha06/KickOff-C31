@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             groups[key].push(p);
         });
 
-        // Shuffle within each category group using Fisher-Yates
+        // Fisher-Yates shuffle within each group
         Object.keys(groups).forEach(key => {
             const g = groups[key];
             for (let i = g.length - 1; i > 0; i--) {
@@ -47,30 +47,30 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Interleave players so consecutive items don't share position/category
+        // Interleave players so consecutive items don't share position
         const result = [];
         let lastKey = null;
 
         while (result.length < array.length) {
-            // Find available keys excluding lastKey (if possible)
-            let candidateKeys = Object.keys(groups).filter(k => groups[k].length > 0 && k !== lastKey);
+            // Find keys that still have players left and are different from lastKey
+            let availableKeys = Object.keys(groups).filter(k => groups[k].length > 0 && k !== lastKey);
 
-            // If no non-consecutive candidate exists, fall back to any remaining key
-            if (candidateKeys.length === 0) {
-                candidateKeys = Object.keys(groups).filter(k => groups[k].length > 0);
+            // Fallback if only 1 position remains
+            if (availableKeys.length === 0) {
+                availableKeys = Object.keys(groups).filter(k => groups[k].length > 0);
             }
 
-            if (candidateKeys.length === 0) break;
+            if (availableKeys.length === 0) break;
 
-            // Pick candidate with largest remaining pool to prevent running out of variety early
-            candidateKeys.sort((a, b) => groups[b].length - groups[a].length);
-            const chosenKey = candidateKeys[0];
+            // Randomly select among available keys (weighted by group size)
+            availableKeys.sort((a, b) => (groups[b].length + Math.random()) - (groups[a].length + Math.random()));
+            const chosenKey = availableKeys[0];
 
             result.push(groups[chosenKey].pop());
             lastKey = chosenKey;
         }
 
-        // Mutate and update original array
+        // Mutate original array
         for (let i = 0; i < result.length; i++) {
             array[i] = result[i];
         }
